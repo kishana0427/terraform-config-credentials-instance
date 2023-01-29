@@ -1,8 +1,3 @@
-#provider "aws" { 
-#	access_key = "AKIAWVHKO7YHPQ75RSOY"
-#	secret_key = "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"
-#	region = "ap-south-1"
-#}	
 resource "aws_instance" "dev_Ins" {
 	ami = "ami-0f69bc5520884278e"
 	instance_type = "t2.micro"
